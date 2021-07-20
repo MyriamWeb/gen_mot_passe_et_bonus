@@ -10,6 +10,7 @@
      "0","1","2","3","4","5","6","7","8","9",
      "&", "é", "(", "-", "è", "", "ç", "à", ")", "=", "~", "#", "{", "[", "|", "`", "@", "]", "}", "^", "$", "ù", "*", ",", ";", ":", "!", "¨", "£", "%", "µ", "?", ".", "/", "§",
  ]
+ // fonction génére un mot de passe de 8 caracteres , pas de requis de maj , caracteres speciaux ....
  function password(request){
      for (let i=0; i<request ; i++){
          result += character[(Math.random()*character.length)|0];

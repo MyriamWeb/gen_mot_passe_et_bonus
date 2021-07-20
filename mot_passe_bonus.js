@@ -23,6 +23,11 @@ function shuffeledWord(word) {
     }
     return shuffledWord;
 }
-
-password(8)
-console.log(shuffeledWord(result))
+let security = 8
+if (security ===8) {
+    password(security);
+    console.log(shuffeledWord(result));
+}
+else{
+    console.error("Min 8 caractères");
+}
